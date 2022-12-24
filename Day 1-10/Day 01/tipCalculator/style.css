@@ -12,6 +12,7 @@ main {
     justify-content: center;
     align-items: center;  
     flex-direction: column;
+    border-radius: 10px;
 }
 
 div {
@@ -39,6 +40,10 @@ input {
     padding: 10px 0;
 }
 
+input[type="text"] {
+    text-align: center;
+  }
+
 button {
     border-radius: 10px;
     padding: 15px 30px;
@@ -49,4 +54,14 @@ button {
     background: #00b894;
     box-shadow: 1px 1px 5px 1px #2d3436;
     margin-top: 20px;
+}
+
+span {
+    top: 85%;
+    bottom: 20%;
+    right: 38%;
+    position: absolute;
+    font-size: 15px;
+    font-weight: 200;
+    color: lightgrey;
 }
