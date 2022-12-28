@@ -10,10 +10,6 @@ body {
     justify-content: center;
 }
 
-h1 {
-    position: block;
-}
-
 .container {
     border: 2px solid #333;
     border-radius: 5px;
