@@ -1,0 +1,2 @@
+## Random Quote Generator 
+This repository contains a quote app, each time you click on the new quote button you will get a new quote. You can also convert a quote to speech, copy a quote, and share a quote on Twitter by clicking the given button.
