@@ -2,11 +2,11 @@
 
 ### About
 Welcome to the 100DaysofCode challenge with JavaScript. <br>
-This repository conatains all the 100 projects that will be built during this challenge.<br>
+This repository contains all the 100 projects that will be built during this challenge.<br>
 The aim of this challenge is to build one project each day for the next 100 days using JavaScript along with HTML & CSS.
 
 ### Projects
-<h4>Below are the List of Projects</h4>
+Below are the List of Projects:
 <ol>
 <li>Tip Calculator</li>
 <li>Image Slider</li>
@@ -35,6 +35,7 @@ The aim of this challenge is to build one project each day for the next 100 days
 <li>Cursor Animation</li>
 <li>Text Animation</li>
 <li>Long Shadow</li>
+<li>Background Animation</li>
 <li>Eyes</li>
 <li>Stay Blessed</li>
 <li>illumination</li>
@@ -60,6 +61,7 @@ The aim of this challenge is to build one project each day for the next 100 days
 <li>Corona Counter</li>
 <li>Submit Tool TIp</li>
 <li>Github Activity Box</li>
+<li>Search Box</li>
 <li>Triadic Color Lights</li>
 <li>Timeline</li>
 <li>Rain Drops</li>
