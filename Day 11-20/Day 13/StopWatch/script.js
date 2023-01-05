@@ -1,69 +1,42 @@
-//returns a date object with the current date and time
-let date = new Date();
+let [milliseconds, seconds, minutes, hours] = [0,0,0,0] 
+let timerRef = document.querySelector('.timerDisplay');
+//Adding eventListener to the start button
+let int;
+document.getElementById('startTimer').addEventListener('click', () => {
+    int = setInterval(displayTimer, 10);
+});
 
-//let dayNumber = date.getDay();
- // getting current day(0-6)
- let toDayIs;
- let quote;
+//Implementing the Pause Button
+document.getElementById('pauseTimer').addEventListener('click', () => {
+    clearInterval(int);
+});
 
-function getDays() {
-    dayNumber = date.getDay();
-    if (toDayIs = "Sunday") {
-        quote = "Time to Relax!";
-    } else if (toDayIs = "Monday") {
-        quote = "Monday morning blues!";
+//Implementing the Reset Button
+document.getElementById('resetTimer').addEventListener('click', () => {
+    clearInterval(int);
+    [milliseconds,seconds,minutes,hours] = [0,0,0,0];
+    timerRef.innerHTML = '00 : 00 : 00 : 000 ';
+})
+//Implementing the start function
+function displayTimer() {
+    milliseconds+=10;
+    if(milliseconds == 1000) {
+        milliseconds = 0;
+        seconds++;
+        if(seconds == 60) {
+            seconds = 0;
+            minutes++;
+            if(minutes == 60) {
+                minutes = 0;
+                hours++;
+            }
+        }
     }
-    else if (toDayIs = "Tuesday") {
-        quote = "blabla!";
-    }
-    else if (toDayIs = "Wednesday") {
-        quote = "Blublu!";
-    }
-    else if (toDayIs = "Thursday") {
-        quote = "Belubelu!";
-    }
-    else if (toDayIs = "Friday") {
-        quote = "Wahoooo!!";
-    } else (toDayIs = "Saturday") 
-        quote = "beluooo";
+    let h = hours < 10 ? "0" + hours : hours;
+    let m = minutes < 10 ? "0" + minutes : minutes;
+    let s = seconds < 10 ? "0" + seconds : seconds;
+    let ms = milliseconds < 10 ? "00" + milliseconds : milliseconds;
+    milliseconds < 100 ? "0" + milliseconds : milliseconds;
+
+    timerRef.innerHTML = ` ${h} : ${m} : ${s} : ${ms}`;
 }
-
-// switching between days and quotes
-/*
-switch(dayNumber){
-    case 0: 
-        theDayIs = 'Sunday';
-        quote = 'Time to chillax!';
-        break;
-    case 1:
-        theDayIs = 'Monday';
-        quote = 'Monday morning blues!';
-        break;
-    case 2:
-        theDayIs = 'Tuesday';
-        quote = 'Taco Time!';
-        break;
-    case 3:
-        theDayIs = 'Wednesday';
-        quote = 'Two more days to the weekend.';
-        break;
-    case 4:
-        theDayIs = 'Thursday';
-        quote = 'The weekend is almost here...';
-        break;
-    case 5:
-        theDayIs = 'Friday';
-        quote = 'Weekend is here!';
-        break;
-    case 6:
-        theDayIs = 'Saturday';
-        quote = 'Time to party!';
-        break;
-}
-*/
-getDays()
-let spanOfWeekday = document.getElementById("weekday");
-spanOfWeekday.innerHTML = `${toDayIs}`;
-
-let spanOfQuote = document.getElementById("quote");
-spanOfQuote.innerHTML = `${quote}`;
