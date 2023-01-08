@@ -39,7 +39,7 @@ body {
     position: absolute;
     top: 30px;
     right: 30px;
-    color: rgb(63, 5, 5);
+    color: #fff;
     cursor: pointer;
     z-index: 1;
 }
@@ -160,3 +160,4 @@ button#equal {
     background-color: #223323;
     color: #ffffff;
   }
+  
