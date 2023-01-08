@@ -1,0 +1,25 @@
+body {
+    font-family: "Work Sans", sans-serif;
+ 
+    background: rgb(230, 230, 230);
+}
+.time { 
+  margin:100px auto;
+    background: rgb(12, 12, 12);
+    color: #fff;
+    border: 7px solid rgb(255, 252, 252);
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    padding: 8px;
+    text-align: center;
+    width: 500px;
+}
+.hms {
+    font-size: 68pt;
+    font-weight: 200;
+}
+.ampm {
+    font-size: 22pt;
+}
+.date {
+    font-size: 15pt;
+}
