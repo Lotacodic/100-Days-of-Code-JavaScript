@@ -20,16 +20,14 @@ Below are the List of Projects:
 <li>Live Character Counter</li>
 <li>Weight Converter</li>
 <li>JavaScript Calculator</li>
-<li>Today</li>
-<li>Timer</li>
+<li>Stopwatch</li>
 <li>Add to Cart Animation</li>
 <li>Zoom In-Out</li>
-<li>Message</li>
 <li>Digital Clock</li>
 <li>BMI Calculator</li>
 <li>CSS Changer</li>
-<li>Stopwatch</li>
 <li>Testimonials</li>
+<li>Message</li>
 <li>3D Card</li>
 <li>Fluid Image PopUp</li>
 <li>Cursor Animation</li>
