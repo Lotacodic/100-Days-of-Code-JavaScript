@@ -25,17 +25,12 @@ Below are the List of Projects:
 <li>Zoom In-Out</li>
 <li>Digital Clock</li>
 <li>BMI Calculator</li>
-<li>CSS Changer</li>
-<li>Testimonials</li>
-<li>Message</li>
-<li>3D Card</li>
-<li>Fluid Image PopUp</li>
-<li>Cursor Animation</li>
+<li>3D Cube</li>
+<li>Testimonials Slider</li>
 <li>Text Animation</li>
-<li>Long Shadow</li>
 <li>Background Animation</li>
-<li>Eyes</li>
-<li>Stay Blessed</li>
+<li>Cursor Animation</li>
+<li>Long Shadow</li>
 <li>illumination</li>
 <li>Scratch JS</li>
 <li>Accordion</li>
