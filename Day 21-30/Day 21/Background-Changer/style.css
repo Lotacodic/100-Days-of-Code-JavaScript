@@ -1,80 +1,35 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-  }
-  body {
-    background-color: #3c0b64;
-  }
-  .wrapper {
-    background-color: #ffffff;
-    position: absolute;
-    width: 80vw;
-    max-width: 41em;
-    min-height: 25em;
-    border-radius: 0.6em;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-    box-shadow: 0 1.8em 3em rgba(1, 17, 39, 0.15);
-    display: flex;
-  }
-  .testimonial-container {
-    width: 85%;
-    height: 100%;
-    position: relative;
-    margin: auto;
-    padding: 1.8em 1.2em;
-  }
-  .wrapper button {
-    font-size: 1.8em;
-    height: 2.2em;
-    width: 2.2em;
-    background-color: #ffffff;
-    position: absolute;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    border: none;
-    color: #0a69ed;
-    box-shadow: 0 0 1em rgba(1, 17, 39, 0.25);
-    cursor: pointer;
-    border-radius: 50%;
-  }
-  button#next {
-    right: -1.1em;
-  }
-  button#prev {
-    left: -1.1em;
-  }
-  .testimonial-container p {
-    color: #8c8c90;
-    text-align: center;
-    font-size: 0.9em;
-    line-height: 2em;
-    letter-spacing: 0.05em;
-  }
-  .testimonial-container img {
-    display: block;
-    margin: 1.8em auto 1.25em auto;
-    border-radius: 50%;
-    width: 4.4em;
-  }
-  .testimonial-container h3 {
-    color: #2d3d67;
-    font-size: 1em;
-    text-align: center;
-  }
-  .testimonial-container h6 {
-    color: #bcc4da;
-    font-size: 0.9em;
-    letter-spacing: 0.03em;
-    font-weight: 400;
-    text-align: center;
-  }
-  @media screen and (max-width: 650px) {
-    .wrapper {
-      font-size: 14px;
-    }
-  }
+@import url('https://fonts.googleapis.com/css?family=Mulli&display=swap');
+
+body {
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  transition: background 0.3s ease;
+}
+
+.change-btn {
+  background-color: #000;
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  font-family: inherit;
+  font-size: 18px;
+  padding: 20px 50px;
+}
+
+.change-btn:focus {
+  background-color: #444;
+  outline: none;
+}
+
+.change-btn:active {
+  transform: scale(0.9s);
+}
+
+.color-text {
+  font-size: 14px;
+}
