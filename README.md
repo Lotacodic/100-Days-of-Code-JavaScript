@@ -28,18 +28,17 @@ Below are the List of Projects:
 <li>3D Cube</li>
 <li>Testimonials Slider</li>
 <li>Text Animation</li>
-<li>Background Animation</li>
-<li>Cursor Animation</li>
+<li>Background Particle Animation</li>
 <li>Long Shadow</li>
+<li>Password Generator</li>
+<li>Spotlight</li>
+<li>Scrollbar Indicator</li>
+<li>Captcha Gnerator</li>
 <li>illumination</li>
 <li>Scratch JS</li>
 <li>Accordion</li>
 <li>Parallax Effect</li>
 <li>SVG Animation</li>
-<li>Password Generator</li>
-<li>Spotlight</li>
-<li>Scrollbar Indicator</li>
-<li>Captcha Gnerator</li>
 <li>Menu Effect</li>
 <li>JS Tabs</li>
 <li>Bell Notification</li>
