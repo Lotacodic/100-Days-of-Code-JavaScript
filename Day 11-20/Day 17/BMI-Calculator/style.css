@@ -12,7 +12,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: rgb(97, 138, 254, 0.9);
+  background: rgba(71, 9, 170, 0.9);
 }
 /* 
   .container {
@@ -56,7 +56,7 @@ h1 {
 .input input {
   outline: none;
   border: none;
-  border-bottom: 1px solid #4f7df9;
+  border-bottom: 1px solid rgba(71, 9, 170, 0.9);
   width: 50%;
   text-align: center;
   font-size: 28px;
@@ -81,7 +81,7 @@ h1 {
 .inputW input {
   outline: none;
   border: none;
-  border-bottom: 1px solid #4f7df9;
+  border-bottom: 1px solid rgba(71, 9, 170, 0.9);
   width: 50%;
   text-align: center;
   font-size: 28px;
@@ -107,7 +107,7 @@ h1 {
 .inputH input {
   outline: none;
   border: none;
-  border-bottom: 1px solid #4f7df9;
+  border-bottom: 1px solid rgba(71, 9, 170, 0.9);
   width: 50%;
   text-align: center;
   font-size: 28px;
@@ -118,7 +118,7 @@ button.calculate {
   cursor: pointer;
   font-family: "Nunito", sans-serif;
   color: #fff;
-  background: rgb(97, 138, 254, 1);
+  background: rgba(71, 9, 170, 0.9);
   font-size: 16px;
   border-radius: 7px;
   padding: 12px 0;
@@ -143,7 +143,7 @@ button.calculate:hover {
 .result #result {
   font-size: 36px;
   font-weight: 900;
-  color: #4f7df9;
+  color: rgba(71, 9, 170, 0.9);
   background-color: #eaeaea;
   display: inline-block;
   padding: 7px 20px;
@@ -151,7 +151,7 @@ button.calculate:hover {
   margin-bottom: 25px;
 }
 #comment {
-  color: #4f7df9;
+  color: rgba(138, 76, 238, 0.9);
   font-weight: 800;
 }
 
@@ -234,7 +234,7 @@ button.calculate:hover {
 
 /* When the radio button is checked, add a blue background */
 .gender .container input:checked ~ .checkmark {
-  background-color: #2196f3;
+  background-color: rgba(120, 58, 221, 0.9);
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
