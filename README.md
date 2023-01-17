@@ -30,6 +30,7 @@ Below are the List of Projects:
 <li>Text Animation</li>
 <li>Background Particle Animation</li>
 <li>Long Shadow</li>
+<li>Credit Card Number Validator<li>
 <li>Password Generator</li>
 <li>Spotlight</li>
 <li>Scrollbar Indicator</li>
