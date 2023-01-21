@@ -33,8 +33,13 @@ Below are the List of Projects:
 <li>Credit Card Number Validator<li>
 <li>Password Generator</li>
 <li>Spotlight</li>
-<li>Scrollbar Indicator</li>
-<li>Captcha Gnerator</li>
+<li>Scroll to Top with Scroll Process</li>
+<li>Captcha Generator</li>
+<li>Get File Extension</li>
+<li>Emorji Maker</li>
+<li>Bell Notification</li>
+<li>Floating Buble</li>
+<li>Vanilla Tilt JS</li>
 <li>illumination</li>
 <li>Scratch JS</li>
 <li>Accordion</li>
@@ -42,9 +47,6 @@ Below are the List of Projects:
 <li>SVG Animation</li>
 <li>Menu Effect</li>
 <li>JS Tabs</li>
-<li>Bell Notification</li>
-<li>Floating Buble</li>
-<li>Vanilla Tilt JS</li>
 <li>Isometric Words</li>
 <li>Robbery</li>
 <li>Jumping Letters</li>
