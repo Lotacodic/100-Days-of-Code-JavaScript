@@ -1,14 +1,46 @@
 <!DOCTYPE html>
+<!-- Coding By Joshua - github.com/lotacodic -->
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Captcha Gnerator</title>
-    <link rel="stylesheet" href="/Day 21-30/Day 27/Captcha Gnerator/style.css">
-</head>
-<body>
-    
-    <script src="/Day 21-30/Day 27/Captcha Gnerator/script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Captcha Generator | Lotacodic</title>
+    <link
+      rel="stylesheet"
+      href="/Day 21-30/Day 27/Captcha Generator/style.css"
+    />
+    <!-- Font Awesome CDN Link for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>Captcha in JavaScript</header>
+      <div class="captcha-area">
+        <div class="captcha-img">
+          <img
+            src="/Day 21-30/Day 27/Captcha Generator/captcha-bg.png"
+            alt="Captch Background"
+          />
+          <span class="captcha"></span>
+        </div>
+        <button class="reload-btn"><i class="fas fa-redo-alt"></i></button>
+      </div>
+      <form action="#" class="input-area">
+        <input
+          type="text"
+          placeholder="Enter captcha"
+          maxlength="6"
+          spellcheck="false"
+          required
+        />
+        <button class="check-btn">Check</button>
+      </form>
+      <div class="status-text"></div>
+    </div>
+
+    <script src="/Day 21-30/Day 27/Captcha Generator/script.js"></script>
+  </body>
 </html>
