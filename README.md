@@ -31,8 +31,7 @@ Below are the List of Projects:
 <li>Background Particle Animation</li>
 <li>Long Shadow</li>
 <li>Credit Card Number Validator<li> 
-<li>Password Generator</li>
-<li>Spotlight</li>
+<li>Password Generator</li><li>Spotlight</li>
 <li>Scroll to Top with Scroll Process</li>
 <li>Captcha Generator</li>
 <li>Get File Extension</li>
