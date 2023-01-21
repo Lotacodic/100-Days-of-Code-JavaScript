@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #a321d6;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  width: 400px;
+  height: 300px;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 0.5em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+input[type="file"] {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 2em;
+  font-size: 1.2em;
+  color: #474778;
+}
+#message {
+  text-align: center;
+  background-color: #e6ecff;
+  padding: 1.2em 0.2em;
+  color: #a321d6;
+  font-size: 1em;
+}
