@@ -37,7 +37,7 @@ eyesBtn.addEventListener("click", () => {
   counter2 = counter2 < totalCounts.eyeCount - 1 ? counter2 + 1 : 0;
 });
 
-eyebrowsBtn.addEventListener("click", () => {
+eyebrowsBtn.addEventLigitstener("click", () => {
   eyebrows.setAttribute("src", `eyebrow-${counter3}.svg`);
   counter3 = counter3 < totalCounts.eyebrowsCount - 1 ? counter3 + 1 : 0;
 });

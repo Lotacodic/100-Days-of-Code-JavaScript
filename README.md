@@ -31,16 +31,16 @@ Below are the List of Projects:
 <li>Background Particle Animation</li>
 <li>Long Shadow</li>
 <li>Credit Card Number Validator<li> 
-<li>Password Generator</li><li>Spotlight</li>
+<li>Password Generator</li>
+<li>Spotlight</li>
 <li>Scroll to Top with Scroll Process</li>
 <li>Captcha Generator</li>
 <li>Get File Extension</li>
 <li>Emorji Maker</li>
 <li>Bell Notification</li>
-<li>Floating Buble</li>
-<li>Vanilla Tilt JS</li>
-<li>illumination</li>
-<li>Scratch JS</li>
+<li>OTP Input Form</li>
+<li>Star Rating</li>
+<li>Determine Identical Array</li>
 <li>Accordion</li>
 <li>Parallax Effect</li>
 <li>SVG Animation</li>
