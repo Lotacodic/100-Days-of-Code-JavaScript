@@ -41,6 +41,9 @@ Below are the List of Projects:
 <li>OTP Input Form</li>
 <li>Star Rating</li>
 <li>Determine Identical Array</li>
+<li>MEMES APP</li>
+<li>QR Code Generator</li>
+<li>Get File Name</li>
 <li>Accordion</li>
 <li>Parallax Effect</li>
 <li>SVG Animation</li>
