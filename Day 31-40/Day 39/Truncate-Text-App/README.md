@@ -1,0 +1,1 @@
+### Truncate_Text_App
