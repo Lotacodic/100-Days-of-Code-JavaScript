@@ -44,6 +44,9 @@ Below are the List of Projects:
 <li>MEMES APP</li>
 <li>QR Code Generator</li>
 <li>Get File Name</li>
+<li>Telephone</li>
+<li>Activity Timer</li>
+<li>Truncate Text App</li>
 <li>Accordion</li>
 <li>Parallax Effect</li>
 <li>SVG Animation</li>
