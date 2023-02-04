@@ -30,7 +30,7 @@ Below are the List of Projects:
 <li>Text Animation</li>
 <li>Background Particle Animation</li>
 <li>Long Shadow</li>
-<li>Credit Card Number Validator<li> 
+<li>Credit Card Number Validator</li> 
 <li>Password Generator</li>
 <li>Spotlight</li>
 <li>Scroll to Top with Scroll Process</li>
@@ -47,42 +47,25 @@ Below are the List of Projects:
 <li>Telephone</li>
 <li>Activity Timer</li>
 <li>Truncate Text App</li>
-<li>Accordion</li>
-<li>Parallax Effect</li>
-<li>SVG Animation</li>
-<li>Menu Effect</li>
-<li>JS Tabs</li>
-<li>Isometric Words</li>
-<li>Robbery</li>
-<li>Jumping Letters</li>
-<li>Automatic Text</li>
-<li>Scrolling Images</li>
-<li>Rotating Animation</li>
-<li>Corona Counter</li>
-<li>Submit Tool TIp</li>
+<li>Flashlight Effect</li>
+<li>Delete Element From Array</li>
+<li>Palindrome Checker</li>
+<li>Alarm App</li>
 <li>Github Activity Box</li>
+<li>Drag Drop</li>
 <li>Search Box</li>
-<li>Triadic Color Lights</li>
-<li>Timeline</li>
-<li>Rain Drops</li>
-<li>Key Codes</li>
-<li>Hamburger Menu Animation</li>
 <li>Select Box</li>
-<li>Picture Animation</li>
-<li>Tetradic Flower</li>
-<li>Three Followers</li>
 <li>Checklist</li>
+<li>Submit Tool TIp</li>
 <li>Floating Inputs</li>
 <li>Color Generator</li>
 <li>Rotating Text</li>
 <li>JS Border</li>
 <li>Nametag Template</li>
-<li>Smoke Effect</li>
 <li>Canvas Of Particles</li>
 <li>Game Of Life</li>
 <li>Sorting by Tags</li>
 <li>Circular Pattern</li>
-<li>Drag Drop</li>
 <li>Navbar</li>
 <li>Jupyter</li>
 <li>Make a List</li>
