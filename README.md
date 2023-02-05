@@ -51,8 +51,8 @@ Below are the List of Projects:
 <li>Delete Element From Array</li>
 <li>Palindrome Checker</li>
 <li>Alarm App</li>
+<li>Drag Drop File Upload</li>
 <li>Github Activity Box</li>
-<li>Drag Drop</li>
 <li>Search Box</li>
 <li>Select Box</li>
 <li>Checklist</li>
