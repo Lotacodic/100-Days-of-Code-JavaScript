@@ -52,6 +52,8 @@ Below are the List of Projects:
 <li>Palindrome Checker</li>
 <li>Alarm App</li>
 <li>Drag Drop File Upload</li>
+<li>On And Off Bulb</li>
+<li>Interactive Panda Form</li>
 <li>Github Activity Box</li>
 <li>Search Box</li>
 <li>Select Box</li>
