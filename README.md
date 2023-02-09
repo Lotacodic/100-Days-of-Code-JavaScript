@@ -54,6 +54,7 @@ Below are the List of Projects:
 <li>Drag Drop File Upload</li>
 <li>On And Off Bulb</li>
 <li>Interactive Panda Form</li>
+<li>Compare Date</li>
 <li>Github Activity Box</li>
 <li>Search Box</li>
 <li>Select Box</li>
