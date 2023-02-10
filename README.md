@@ -55,6 +55,7 @@ Below are the List of Projects:
 <li>On And Off Bulb</li>
 <li>Interactive Panda Form</li>
 <li>Compare Date</li>
+<li>Shuffle Array Randomly</li>
 <li>Github Activity Box</li>
 <li>Search Box</li>
 <li>Select Box</li>
