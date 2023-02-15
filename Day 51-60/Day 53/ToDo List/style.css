@@ -1,0 +1,114 @@
+$primary: #313e50;
+$grey: #cdcdcd;
+$secondary: #1dd2af;
+
+%reset {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	background: transparent;
+}
+
+%transition {
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+}
+
+body {
+	background: #f1f1f1;
+	margin-top: 2rem;
+}
+
+/*PEN STYLES*/
+.tasker {
+	max-width: 400px;
+	margin: 0 auto;
+	.error {
+		display: none;
+		background: rgba(237, 28, 36, 0.7);
+		color: #fff;
+		padding: 14px;
+		margin-bottom: 10px;
+		border-radius: 5px;
+		text-align: center;
+	}
+
+	ul {
+		@extend %reset;
+		background: #fff;
+	}
+
+	li,
+	.error,
+	button,
+	input {
+		@extend %reset;
+		font: 18px/1.25em Helvetica, Arial, Sans-serif;
+	}
+}
+
+.tasker-header {
+	display: inline-flex;
+	background: $primary;
+	justify-content: space-between;
+	width: 100%;
+	input,
+	button {
+		color: #fff;
+		box-sizing: border-box;
+		font-size: 1.25em;
+		padding: 14px;
+	}
+
+	input {
+		flex-grow: 2;
+	}
+
+	button {
+		@extend %transition;
+		background: $secondary;
+		border-left: 1px solid ($secondary * 1.05);
+		&:hover {
+			background: $secondary * 1.1;
+		}
+	}
+}
+
+.tasker-body {
+	.task {
+		display: block;
+		position: relative;
+		padding: 14px 40px 14px 14px;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		&:last-child {
+			border-bottom: none;
+		}
+
+		&:hover > button {
+			opacity: 1;
+		}
+
+		&.completed {
+			color: $grey;
+			text-decoration: line-through;
+		}
+
+		input {
+			margin-right: 10px;
+		}
+
+		button {
+			@extend %transition;
+			color: $grey;
+			margin: 14px;
+			position: absolute;
+			top: 0;
+			right: 0;
+			opacity: 0;
+			&:hover {
+				color: #ed1c24;
+			}
+		}
+	}
+}
