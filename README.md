@@ -57,6 +57,12 @@ Below are the List of Projects:
 <li>Compare Date</li>
 <li>Shuffle Array Randomly</li>
 <li>Blob Maker</li>
+<li>RGB Game</li>
+<li>JavaScript Quiz</li>
+<li>Code Editor</li>
+<li>ToDo List</li>
+<li>Cookie Consent Maker</li>
+<li>Flip A coin</li>
 <li>Github Activity Box</li>
 <li>Search Box</li>
 <li>Select Box</li>
