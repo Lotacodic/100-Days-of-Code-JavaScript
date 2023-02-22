@@ -63,6 +63,7 @@ Below are the List of Projects:
 <li>ToDo List</li>
 <li>Cookie Consent Maker</li>
 <li>Flip A coin</li>
+<li>Detect Battery Status</li>
 <li>Github Activity Box</li>
 <li>Search Box</li>
 <li>Select Box</li>
